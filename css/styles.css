@@ -16,31 +16,39 @@
   text-decoration: underline;
 }
 
-body {
-  position: absolute;
-  top: 0px;
-  bottom: 0px;
-  left: 0px;
-  right: 0px;
+nav {
+  color: #fff;
 }
 
+.nav-link {
+  font-size: 16px;
 
-a .navbar-brand{
-  font-size: 30px;
-}
-.nav li {
-  font-size: 20px;
 }
 
 .fas {
   color: white;
 }
 
+.main {
+  background-image: url('../img/bg.jpg');
+  background-size: cover;
+  height: auto;
+}
+
+.main-list {
+  font-size: 20px;
+  list-style: none;
+  background-color: #eee;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+
 .jumbotron  {
   margin: 0px;
 }
 
-.btn .signup {
+btn .btn-primary .get-ride {
   font-size: 30px;
-  padding: 10px;
+  padding: 20px;
 }

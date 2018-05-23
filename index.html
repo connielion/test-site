@@ -7,12 +7,20 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+        <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
   </head>
-  <body>
+  <body class=" main">
 
 <!--NAV BAR-->
-<nav class="navbar navbar-inverse raleway">
+<nav class="navbar navbar-default raleway">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -23,14 +31,15 @@
       <a class="navbar-brand" href="index.html">Hot Rides</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">FAQ</a></li>
-        <li><a href="#">ABOUT</a></li>
+      <ul class="nav navbar-nav bold">
+        <li class="active nav-link"><a href="#">Home</a></li>
+        <li><a href="#" class="nav-link">FREQUENTLY ASKED QUESTIONS <span class="glyphicon glyphicon-question-sign"></span></a></li>
+        <li><a href="#" class="nav-link">ABOUT US</a></li>
+        <li><a href="" class="nav-link">CONTACT US <span class="glyphicon glyphicon-envelope"></span></a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"> Sign Up</a></li>
-        <li><a href="#">HELP</a></li>
+        <li><a href="#">Sign Up <span class="glyphicon glyphicon-pencil"></span></a></li>
+        <li><a href="#">HELP <span class="glyphicon glyphicon-question-sign"></span></a></li>
       </ul>
     </div>
   </div>
@@ -40,19 +49,25 @@
     <div class="row">
       <div class="col-sm-12">
         <div class="jumbotron roboto">
-          <h1>Free Rides for Seniors to Cooling Centers.</h1>
-          <h2>Serving residents in the Central Valley.</h2>
+          <h1>Free Rides to Cooling Centers.</h1>
+          <h2>Serving <span class="underline bold"><i>senior residents</i></span> in the Central Valley.</h2>
+          <br>
+          <ul class="main-list center-block">
+            <li><span class="glyphicon glyphicon-ok"></span> We notify you when temperature is dangerously high.</li>
+            <li><span class="glyphicon glyphicon-ok"></span> Care-takers welcome.</li>
+            <li><span class="glyphicon glyphicon-ok"></span> COMPLETELY FREE!</li>
+          </ul>
         </div>
       </div>
     </div>
 
     <div class="row">
-      <div class="col-sm-12">
-          <button class="btn btn-success center-block signup raleway bold underline">GET A RIDE NOW!</button>
+      <div class="col-sm-12 ">
+          <button class="btn btn-primary get-ride roboto bold underline center-block"><h2>GET A FREE RIDE TO SOMEWHERE COOL NOW!</h2></button>
       </div>
     </div>
 </div>
 
-  </body>
-  <script src="bootstrap.min.js"></script>
+</body>
+
 </html>
