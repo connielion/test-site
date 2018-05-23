@@ -1,0 +1,46 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css?family=Raleway:600|Roboto+Condensed');
+
+.raleway {
+  font-family: 'Raleway', sans-serif;
+}
+.roboto {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.bold {
+  font-weight: 500;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+body {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
+
+
+a .navbar-brand{
+  font-size: 30px;
+}
+.nav li {
+  font-size: 20px;
+}
+
+.fas {
+  color: white;
+}
+
+.jumbotron  {
+  margin: 0px;
+}
+
+.btn .signup {
+  font-size: 30px;
+  padding: 10px;
+}
